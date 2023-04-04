@@ -21,6 +21,8 @@ const PostDetailsId = ({ post }) => {
     );
 };
 
+
+//static site generation (SSG)
 export const getStaticProps = async (context) => {
     // console.log(context);
     const { params } = context;
